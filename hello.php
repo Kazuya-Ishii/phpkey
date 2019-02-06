@@ -1,9 +1,9 @@
 <?php
-echo "hello world!"
+echo "hello world!";
 
 $a = 3;
 $b = 7;
-echo $a + $b
+echo $a+$b;
 
 $array_month = [January,Feburary,March,April,May,June,July,August,September,October,November,December];
 echo $array_month[7];
@@ -31,4 +31,29 @@ $calendar_2018 = [
   "November" => "11月",
   "December" => "12月"];
 echo $calendar_2018 [December];
- ?>
+
+$name = "ボビーオロゴン";
+if ( $name = "ボビーオロゴン" ){
+  echo "私は あなたの名前 です";
+} else {
+    echo "あなたの名前ではありません";
+  }
+
+  $total = 0;
+  for($i = 0; $i <= 10000; $i++){
+    $total += $i;
+  }
+  echo $total;
+
+  $fruits = array ("pineapple","kiwifruit","orange","ficus carica","banana");
+  foreach ($fruits as $fruit) {
+  echo " ".$fruit;
+  }
+
+  for ($i = 1;$i <= 100; $i++){
+    if ($i % 5 == 0)
+    echo $i;
+    echo "\n";
+    }
+
+  ?>
