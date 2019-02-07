@@ -14,7 +14,7 @@ $world = "'s World!";
 echo $hello . $name . $world;
 
 $tech_boost = "tech";
-$tech_boost .= "boost";
+$tech_boost .= "　boost";
 echo $tech_boost;
 
 $calendar_2018 = [
@@ -30,13 +30,13 @@ $calendar_2018 = [
   "October" => "10月",
   "November" => "11月",
   "December" => "12月"];
-echo $calendar_2018 [December];
+echo $calendar_2018 ["December"];
 
 $name = "ボビーオロゴン";
-if ( $name = "ボビーオロゴン" ){
-  echo "私は あなたの名前 です";
+if ( $name == "ボビーオロゴン" ){
+  echo "私は $name です";
 } else {
-    echo "あなたの名前ではありません";
+    echo "$name ではありません";
   }
 
   $total = 0;
